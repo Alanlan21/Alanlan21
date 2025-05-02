@@ -1,7 +1,6 @@
 ## Hi there 👋
 
-<!--
-**Alanlan21/Alanlan21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="banner.png" alt="Alan Regis GitHub Banner" style="width:100%;" />
 
 Here are some ideas to get you started:
 
