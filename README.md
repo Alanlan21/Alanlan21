@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<img src="banner.png" alt="Alan Regis GitHub Banner" style="width:100%;" />
+<img src="banner.jpg" alt="Alan Regis GitHub Banner" style="width:100%;" />
 
 Here are some ideas to get you started:
 
