@@ -1,25 +1,28 @@
-name: Generate Pacman Contribution Graph
+name: Atualizar Pac-Man Contribution
 
 on:
   schedule:
-    - cron: '0 0 * * *' # roda todo dia à meia-noite
-  workflow_dispatch:
+    - cron: "0 0 * * 0"  # roda todo domingo à meia-noite
+  workflow_dispatch:     # permite rodar manualmente
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Generate Pacman Graph
-        uses: Platane/snk@v3
+      - name: Gerar gráfico Pac-Man
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: Alanlan21
-          outputs: |
-            ./output/pacman-contribution-graph.svg
-            ./output/pacman-contribution-graph-dark.svg
-      - name: Push output
-        uses: EndBug/add-and-commit@v9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publicar no branch output
+        uses: crazy-max/ghaction-github-pages@v3
         with:
-          author_name: github-actions
-          author_email: actions@github.com
-          message: 'Atualiza gráfico Pacman'
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
