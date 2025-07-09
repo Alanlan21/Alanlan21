@@ -44,7 +44,6 @@
 
 ### 📌 Featured Projects
 
-### 📌 Featured Projects
 
 <p align="center">
   <a href="https://github.com/Alanlan21/calote-bot">
