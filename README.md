@@ -23,7 +23,7 @@
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Alanlan21&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
+  <img height="160em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Alanlan21&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
   <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=Alanlan21&theme=dracula" />
   <img src="https://github-profile-trophy.vercel.app/?username=Alanlan21&theme=dracula&margin-w=8&margin-h=8" height="150" />
 </p>
