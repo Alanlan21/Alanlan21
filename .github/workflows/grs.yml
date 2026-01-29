@@ -21,13 +21,6 @@ jobs:
           path: stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: GitHub streak
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: streak
-          options: username=Alanlan21&theme=dracula
-          path: streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: GitHub trophies
         uses: readme-tools/github-readme-stats-action@v1
