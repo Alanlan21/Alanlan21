@@ -17,6 +17,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      # sincroniza antes de gerar qualquer arquivo
+      - name: Sync with remote
+        run: |
+          git pull --rebase origin main
+
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -29,11 +34,12 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=dracula&langs_count=8
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=dracula
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate pin card
+      # Pins
+      - name: Pin calote-bot
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
@@ -41,12 +47,34 @@ jobs:
           path: profile/pin-calote-bot.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Pin Unimenu
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=Unimenu&theme=dracula
+          path: profile/pin-unimenu.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin Fala-Pai
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=Fala-Pai&theme=dracula
+          path: profile/pin-fala-pai.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin NestJS Attack and Defense Lab
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=NestJS-Attack-and-Defense-Lab&theme=dracula
+          path: profile/pin-nestjs-attack-defense.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git pull --rebase origin main
 
           git add profile/*.svg
           git commit -m "Update README cards" || exit 0
