@@ -20,6 +20,10 @@
 
 ---
 
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+![Pinned](./profile/pin-calote-bot.svg)
+
 ### 📈 Stats
 
 <p align="center">
@@ -70,7 +74,7 @@
   <a href="https://github.com/Alanlan21">
     <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&style=for-the-badge" height="25" />
   </a>
-  <a href="https://www.linkedin.com/in/alanregis21/">
+  <a href="https://www.linkedin.com/in/alanregis/">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" />
   </a>
   <a href="mailto:alanregisps@gmail.com">
