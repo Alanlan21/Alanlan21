@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
+      - name: GitHub stats
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
@@ -20,10 +20,26 @@ jobs:
           path: stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: GitHub streak
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: streak
+          options: username=Alanlan21&theme=dracula
+          path: streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: GitHub trophies
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: trophies
+          options: username=Alanlan21&theme=dracula&margin-w=8
+          path: trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit cards
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add stats.svg
-          git commit -m "Update stats card" || exit 0
+          git add *.svg
+          git commit -m "Update README cards" || exit 0
           git push
