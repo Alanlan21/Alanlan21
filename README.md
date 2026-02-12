@@ -20,19 +20,22 @@
 
 ---
 
-![Stats](./profile/stats.svg)
-![Top Languages](./profile/top-langs.svg)
-![Pinned](./profile/pin-calote-bot.svg)
+
+
 
 ### 📈 Stats
 
-<p align="center">
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+
+
+<!-- <p align="center">
   <img height="160em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Alanlan21&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
   <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=Alanlan21&theme=dracula" />
   <img height="160em" src="https://github-readme-stats.vercel.app/api/wakatime?username=Alanlan&theme=dracula" />
   <img height="150em" src="https://github-profile-trophy.vercel.app/?username=Alanlan21&theme=dracula&margin-w=8&margin-h=8" />
   
-</p>
+</p> -->
 
 
 
@@ -52,8 +55,11 @@
 
 ### 📌 Featured Projects
 
-
-<p align="center">
+![Pinned](./profile/pin-unimenu.svg)
+![Pinned](./profile/pin-nestjs-attack-defense.svg)
+![Pinned](./profile/pin-fala-pai.svg)
+![Pinned](./profile/pin-calote-bot.svg)
+<!-- <p align="center">
   <a href="https://github.com/Alanlan21/calote-bot">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alanlan21&repo=calote-bot&theme=dracula" />
   </a>
@@ -63,7 +69,7 @@
   <a href="https://github.com/Alanlan21/Fala-Pai">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alanlan21&repo=Fala-Pai&theme=dracula" />
   </a>
-</p>
+</p> -->
 
 
 ---
