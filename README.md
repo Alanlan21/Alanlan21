@@ -25,8 +25,15 @@
 
 ### 📈 Stats
 
-![Stats](./profile/stats.svg)
-![Top Languages](./profile/top-langs.svg)
+<p align="center">
+  <img height="160em" src="./profile/stats.svg"/>
+  <img height="160em" src="./profile/top-langs.svg"/>
+</p>
+
+<p align="center">
+  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=Alanlan21&theme=dracula"/>
+</p>
+
 
 
 <!-- <p align="center">
