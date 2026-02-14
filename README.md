@@ -60,13 +60,13 @@
 
 ---
 
-### 📌 Featured Projects
+<!--### 📌 Featured Projects
 
 ![Pinned](./profile/pin-unimenu.svg)
 ![Pinned](./profile/pin-nestjs-attack-defense.svg)
 ![Pinned](./profile/pin-fala-pai.svg)
 ![Pinned](./profile/pin-calote-bot.svg)
-<!-- <p align="center">
+ <p align="center">
   <a href="https://github.com/Alanlan21/calote-bot">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alanlan21&repo=calote-bot&theme=dracula" />
   </a>
