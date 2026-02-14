@@ -1,8 +1,8 @@
 
       <svg
         width="400"
-        height="140"
-        viewBox="0 0 400 140"
+        height="150"
+        viewBox="0 0 400 150"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -100,7 +100,7 @@
     
 
     <text class="description" x="25" y="-5">
-      <tspan dy="1.2em" x="25">A secure REST API built with NestJS, focusing on the 3</tspan><tspan dy="1.2em" x="25">pillars of security: Authentication, Authorization, and</tspan><tspan dy="1.2em" x="25">Accountability (AAA).</tspan>
+      <tspan dy="1.2em" x="25">A secure REST API built with NestJS, focusing on the 3</tspan><tspan dy="1.2em" x="25">pillars of security: Authentication, Authorization, and</tspan><tspan dy="1.2em" x="25">Accountability (AAA). The project includes simulated...</tspan>
     </text>
 
     <g transform="translate(30, 75)">
